@@ -28,12 +28,15 @@
 }
 
 - (void)btnClick{
+    
     ScanViewController *scan = [[ScanViewController alloc]init];
     [scan finishingBlock:^(NSString *string) {
-       UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"" message:string delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
-        [alert show];
+        //返回解析出来的二维码/条形码
     }];
+    
     [self.navigationController pushViewController:scan animated:YES];
+    //       UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"" message:string delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
+    //        [alert show];
 }
 
 - (void)didReceiveMemoryWarning {
