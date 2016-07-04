@@ -193,7 +193,6 @@
 				TargetAttributes = {
 					4662C98C1D23920B0064AD82 = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = 9479286Y6M;
 					};
 				};
 			};
@@ -364,12 +363,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: ailing xing (2ABJCUADFU)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LMScanerTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.visionet.LMScanerTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liumang.LMScaner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ef0298a4-7f49-4b21-b652-7a1ec3640370";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -377,12 +376,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer: ailing xing (2ABJCUADFU)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = LMScanerTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.visionet.LMScanerTest;
+				PRODUCT_BUNDLE_IDENTIFIER = com.liumang.LMScaner;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "ef0298a4-7f49-4b21-b652-7a1ec3640370";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
