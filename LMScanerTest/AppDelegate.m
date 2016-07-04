@@ -2,8 +2,8 @@
 //  AppDelegate.m
 //  LMScanerTest
 //
-//  Created by 高翔 on 16/6/29.
-//  Copyright © 2016年 高翔. All rights reserved.
+//  Created by 流氓 on 16/6/29.
+//  Copyright © 2016年 流氓. All rights reserved.
 //
 
 #import "AppDelegate.h"
