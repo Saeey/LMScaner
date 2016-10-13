@@ -18,9 +18,12 @@
 
 ![image](https://github.com/Saeey/LMScaner/blob/master/images/jietu.PNG)
 
-
-有问题可以联系我
-QQ：604493843
-邮箱：604493843@qq.com
+集成方式
 
 ![image](https://github.com/Saeey/LMScaner/blob/master/images/image1.png)
+
+有问题可以联系我
+
+QQ：604493843
+
+邮箱：604493843@qq.com
