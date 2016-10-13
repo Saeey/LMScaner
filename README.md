@@ -20,4 +20,4 @@ QQ：604493843
 ![image](https://github.com/Saeey/LMScaner/blob/master/images/image1.png)
 
 使用截图
-![image](https://github.com/Saeey/LMScaner/blob/master/images/jietu.PNG =500x889)
+![image](https://github.com/Saeey/LMScaner/blob/master/images/jietu.PNG)
