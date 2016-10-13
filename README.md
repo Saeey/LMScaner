@@ -19,5 +19,5 @@ QQ：604493843
 邮箱：604493843@qq.com
 ![image](https://github.com/Saeey/LMScaner/blob/master/images/image1.png)
 
-使用样例
-![image](https://github.com/Saeey/LMScaner/blob/master/images/jietu.PNG =100*100)
+使用截图
+![image](https://github.com/Saeey/LMScaner/blob/master/images/jietu.PNG =500x889)
