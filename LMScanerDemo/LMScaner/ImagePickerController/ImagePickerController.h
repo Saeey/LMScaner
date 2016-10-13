@@ -16,6 +16,7 @@ typedef void (^CancelingBlock)(void);
     UIImagePickerControllerFinishingBlock _finishingBlock;
     CancelingBlock _cancelingBlock;
 }
+
 - (void)cameraSourceType:(UIImagePickerControllerSourceType)source
               onFinishingBlock:(UIImagePickerControllerFinishingBlock)finishingBlock
               onCancelingBlock:(CancelingBlock)cancelingBlock;

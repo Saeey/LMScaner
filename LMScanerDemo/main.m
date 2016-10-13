@@ -1,8 +1,8 @@
 //
 //  main.m
-//  LMScanerTest
+//  LMScanerDemo
 //
-//  Created by 流氓 on 16/6/29.
+//  Created by 流氓 on 16/10/13.
 //  Copyright © 2016年 流氓. All rights reserved.
 //
 

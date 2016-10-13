@@ -22,8 +22,7 @@
 
 - (void)cameraSourceType:(UIImagePickerControllerSourceType)source
         onFinishingBlock:(UIImagePickerControllerFinishingBlock)finishingBlock
-        onCancelingBlock:(CancelingBlock)cancelingBlock;
-{
+        onCancelingBlock:(CancelingBlock)cancelingBlock {
     self.delegate = self;
     if (![UIImagePickerController isSourceTypeAvailable: UIImagePickerControllerSourceTypeCamera]) {
         source = UIImagePickerControllerSourceTypePhotoLibrary;
@@ -35,8 +34,7 @@
 }
 
 
-- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
-{
+- (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info {
     [picker dismissViewControllerAnimated:YES completion:^{
         if (_finishingBlock) {
             _finishingBlock(picker, info, ((UIImage *)[info objectForKey:UIImagePickerControllerOriginalImage]), ((UIImage *)[info objectForKey:UIImagePickerControllerEditedImage]));
@@ -45,8 +43,8 @@
     }];
 
 }
-- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker
-{
+
+- (void)imagePickerControllerDidCancel:(UIImagePickerController *)picker {
     
     [picker dismissViewControllerAnimated:YES completion:^{
         if (_cancelingBlock) {
@@ -55,9 +53,11 @@
         }
     }];
 }
-- (void)didReceiveMemoryWarning
-{
+
+- (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 @end

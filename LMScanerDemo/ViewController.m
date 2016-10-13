@@ -18,25 +18,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    UIButton *btn = [[UIButton alloc]init];
-    btn.frame = CGRectMake(100, 100, 100, 100);
-    [btn setTitle:@"快点我" forState:UIControlStateNormal];
-    [btn addTarget:self action:@selector(btnClick) forControlEvents:UIControlEventTouchUpInside];
-    [btn setTitleColor:[UIColor greenColor] forState:UIControlStateNormal];
     self.view.backgroundColor = [UIColor whiteColor];
-    [self.view addSubview:btn];
+    
+    UIButton *button = [[UIButton alloc]init];
+    button.frame = CGRectMake(100, 100, 100, 100);
+    [button setTitle:@"快点我" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(buttonClick) forControlEvents:UIControlEventTouchUpInside];
+    [button setTitleColor:[UIColor greenColor] forState:UIControlStateNormal];
+    [self.view addSubview:button];
 }
 
-- (void)btnClick{
-    
+- (void)buttonClick {
     ScanViewController *scan = [[ScanViewController alloc]init];
     [scan finishingBlock:^(NSString *string) {
-        //返回解析出来的二维码/条形码
+        //这里会或得到扫描出来的结果
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"扫描出来了" message:string delegate:self cancelButtonTitle:@"确定" otherButtonTitles: nil];
+        [alert show];
     }];
-    
     [self.navigationController pushViewController:scan animated:YES];
-    //       UIAlertView *alert = [[UIAlertView alloc]initWithTitle:@"" message:string delegate:self cancelButtonTitle:@"确定" otherButtonTitles:nil, nil];
-    //        [alert show];
 }
 
 - (void)didReceiveMemoryWarning {
