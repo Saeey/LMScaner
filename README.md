@@ -14,10 +14,13 @@
 
 3.右下角显示最近的一张照片，点击跳转到相册
 
+使用截图
+
+![image](https://github.com/Saeey/LMScaner/blob/master/images/jietu.PNG)
+
+
 有问题可以联系我
 QQ：604493843
 邮箱：604493843@qq.com
-![image](https://github.com/Saeey/LMScaner/blob/master/images/image1.png)
 
-使用截图
-![image](https://github.com/Saeey/LMScaner/blob/master/images/jietu.PNG)
+![image](https://github.com/Saeey/LMScaner/blob/master/images/image1.png)
